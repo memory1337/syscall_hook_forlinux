@@ -1,0 +1,11 @@
+wyt of over-writing the exception handling code,
+checking the syscall no and then redirecting to two different tables, one un-overwritten and the other i have modifed,
+system.map will still show the original table and the original addresses
+
+el0_svc_common
+
+el0_svc_common.constprop.0
+
+
+https://stackoverflow.com/questions/40270548/load-64-bit-address-of-a-symbol-to-a-register-on-aarch64
+// https://stackoverflow.com/questions/5982125/how-to-get-a-struct-page-from-any-address-in-the-linux-kernel
